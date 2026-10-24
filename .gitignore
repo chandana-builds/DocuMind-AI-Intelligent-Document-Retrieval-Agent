@@ -1,0 +1,36 @@
+# Python virtual environments & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Environment and secrets (CRITICAL: Never commit credentials)
+.env
+.env.local
+*.pem
+credentials.json
+aws_credentials
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temp files
+tmp/
+temp/
+*.log
